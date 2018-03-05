@@ -1,5 +1,4 @@
 import spacy
-import itertools
 nlp = spacy.load('en')
 
 tokens = nlp(u'dog cat banana')
